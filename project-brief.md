@@ -15,3 +15,9 @@ I'm not reading so many blogs nowadays because most of the answers I am looking 
 ![A screenshot of Chen Hui Jing's website. It has a retro feel to it with a pixelated header background with different shades of green. The main logo is an image of an old computer.](https://github.com/user-attachments/assets/1c608660-2a41-41ec-b9a5-dfee50fe2e80 "A screenshot of Chen Hui Jing's website. It has a retro feel to it with a pixelated header background with different shades of green. The main logo is an image of an old computer.")
 
 This is a blog I keep coming back to when I need some inspiration. It hasn't changed in a while, but I really like the quirky retro vibe to it and the posts are really interesting too!
+
+### [Chris Glass](https://chrisglass.com)
+
+![A screenshot of Chris Glass' website. The style seems quite minimalist, but there is a lot of content. At the time of writing the main image is of a cat peering round a piece of furniture.](https://github.com/user-attachments/assets/67f61400-213a-4c49-963c-7774aba91803 "A screenshot of Chris Glass' website. The style seems quite minimalist, but there is a lot of content. At the time of writing the main image is of a cat peering round a piece of furniture.")
+
+I first became aware of Chris' work because of his excellent [Creative Mornings talk](https://creativemornings.com/talks/chris-glass), which I found inspiring and hilarious in equal measure. I like this website because the style is simple, but there's a bunch of content. It feels like the website of a creative forager and collector.
