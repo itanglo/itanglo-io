@@ -33,3 +33,9 @@ I like the style of Tania's website and I enjoy the nod to persistance methods o
 ![A screenshot of Cassidy Williams' website. There is a picture of Cassidy holding a keyboard aloft. The style is simple with splashes of colour to underline text.](https://github.com/user-attachments/assets/8e8e7954-2d3b-43c3-aa3c-a4ad68d66c2d "A screenshot of Cassidy Williams' website. There is a picture of Cassidy holding a keyboard aloft. The style is simple with splashes of colour to underline text.")
 
 Following the trend of the kind of style I like, this website is also quite minimalstic, but I like the monospaced font and  the use of vibrant alternating colours to highlight the links on the page.
+
+### [Josh W Comeau](https://www.joshwcomeau.com)
+
+![A screenshot of Josh W Comeau's website. Shapes arch across part of the page over Josh's avatar that sits cross legged. The arch responds to mouse movements.](https://github.com/user-attachments/assets/ef147e71-0073-4075-982c-403b4b30fd29 "A screenshot of Josh W Comeau's website. Shapes arch across part of the page over Josh's avatar that sits cross legged. The arch responds to mouse movements.")
+
+Apart from the super interesting content, Josh uses animations all across the website in a really fun way. I also love the sound effect that plays when you click an item of the main navigation. It has an [RSS feed](https://www.joshwcomeau.com/rss.xml) which I have noticed on some of the other websites and have never really used. I can see it being useful for keeping up to date with blog posts and avoiding being overwhelmed by emails.
