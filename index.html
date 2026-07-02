@@ -11,6 +11,12 @@
     :root {
       --color-bg: #ffffff;
       --color-text: #000000;
+      /* breakpoints (reference only — cannot be used inside @media conditions) */
+      --bp-sm: 640px;
+      --bp-lg: 1024px;
+      /* typography */
+      --font-size-base: 1.25rem;
+      --font-size-lg: 2rem;
     }
 
     *, *::before, *::after {
@@ -22,10 +28,16 @@
     body {
       background: var(--color-bg);
       font-family: 'Atkinson Hyperlegible', sans-serif;
-      font-size: 1.25rem;
+      font-size: var(--font-size-base);
       line-height: 1.7;
       color: var(--color-text);
       min-height: 100dvh;
+    }
+
+    @media (min-width: 1024px) { /* --bp-lg */
+      body {
+        font-size: var(--font-size-lg);
+      }
     }
 
     .bio {
@@ -36,7 +48,7 @@
       padding-left: 1.5rem;
     }
 
-    @media (max-width: 576px) {
+    @media (max-width: 640px) { /* --bp-sm */
       .bio {
         padding: 2rem 6%;
       }
@@ -68,7 +80,7 @@
 
   <div class="bio">
     <p>Ehilà&nbsp;👋</p>
-    <p class="indent">I'm Paolo, an AI-powered web engineer&nbsp;🤖💪</p>
+    <p class="indent">I'm Paolo, an AI-powered web engineer&nbsp;🤖&nbsp;💪</p>
     <p>Living in Blighty 🇬🇧, hailing from the shores of Sicily&nbsp;🇮🇹</p>
     <p class="indent">Part of Team Web @ Fin <svg class="logo"><use href="#logo-fin"/></svg> (fka Intercom <svg class="logo"><use href="#logo-intercom"/></svg>)</p>
   </div>
