@@ -1,0 +1,146 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  /* breakpoints (reference only — cannot be used inside @media conditions) */
+  --bp-sm: 800px;
+  --bp-lg: 1024px;
+  /* typography */
+  --font-size-base: 1.25rem;
+  --font-size-lg: 2rem;
+  /* avatar */
+  --avatar-w: 236px;
+  --avatar-h: 303px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: var(--font-size-base);
+  line-height: 1.7;
+  color: var(--color-text);
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1180px) {
+  body {
+    font-size: var(--font-size-lg);
+  }
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 8rem 6% 3rem;
+}
+
+@media (max-width: 800px) { /* --bp-sm */
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 6%;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bio p.indent {
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 800px) { /* --bp-sm */
+  .bio p.indent {
+    padding-left: 0;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.9em;
+  height: 0.9em;
+  position: relative;
+  top: -0.08em;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.nav a {
+  color: #0000ee;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.avatar-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Avatar: layered coloured blocks behind a photo */
+.avatar {
+  position: relative;
+  flex-shrink: 0;
+  width: 236px;
+  height: 303px;
+}
+
+.avatar::before,
+.avatar::after {
+  content: '';
+  position: absolute;
+}
+
+.avatar::before {
+  top: 0;
+  left: 0;
+  width: 199px;
+  height: 243px;
+  background: #ffb175;
+}
+
+.avatar::after {
+  top: 77px;
+  left: 28px;
+  width: 208px;
+  height: 226px;
+  background: #1dfbc7;
+}
+
+.avatar-photo {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  width: 209px;
+  height: 272px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media (max-width: 1180px) {
+  .avatar         { width: 142px; height: 182px; }
+  .avatar::before { width: 120px; height: 146px; }
+  .avatar::after  { top: 46px; left: 17px; width: 125px; height: 136px; }
+  .avatar-photo   { top: 7px;  left: 8px;  width: 126px; height: 163px; }
+}
