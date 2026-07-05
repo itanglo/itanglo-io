@@ -1,6 +1,7 @@
 import Nav from '@/components/Nav'
 import Avatar from '@/components/Avatar'
-import { FinLogo, IntercomLogo } from '@/components/LogoSvgs'
+import FinLogo from '@/components/FinLogo'
+import IntercomLogo from '@/components/IntercomLogo'
 
 export default function HomePage() {
   return (
