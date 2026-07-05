@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Atkinson_Hyperlegible } from 'next/font/google'
+import LogoSvgs from '@/components/LogoSvgs'
 import './globals.css'
 
 const atkinson = Atkinson_Hyperlegible({
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={atkinson.variable}>
       <body className="bg-white font-sans text-[1.25rem] leading-[1.7] text-black min-h-[100dvh] flex justify-center xl:text-[2rem]">
+        <LogoSvgs />
         {children}
       </body>
     </html>
