@@ -56,6 +56,16 @@ main {
   gap: 2rem;
 }
 
+h1 {
+  font-size: 1.953125rem; /* 31.25px — major third scale step 4 */
+  line-height: 1.2;
+}
+
+.body-copy {
+  font-size: 1.25rem;
+  line-height: 1.7;
+}
+
 .bio p.indent {
   padding-left: 1.5rem;
 }
@@ -143,4 +153,23 @@ main {
   .avatar::before { width: 120px; height: 146px; }
   .avatar::after  { top: 46px; left: 17px; width: 125px; height: 136px; }
   .avatar-photo   { top: 7px;  left: 8px;  width: 126px; height: 163px; }
+}
+
+/* About page — editorial (float) variant */
+.main-single {
+  display: flow-root;
+  max-width: 60ch;
+}
+
+.avatar-float {
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+}
+
+@media (max-width: 600px) {
+  .avatar-float {
+    float: none;
+    margin: 2.5rem auto 1.5rem;
+    display: block;
+  }
 }
