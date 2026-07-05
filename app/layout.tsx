@@ -11,9 +11,10 @@ const atkinson = Atkinson_Hyperlegible({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s — Paolo Di Pasquale',
     default: 'Paolo Di Pasquale',
+    template: '%s — Paolo Di Pasquale',
   },
+  description: 'The personal website of Paolo Di Pasquale, an AI-powered web engineer.',
   icons: { icon: '/favicon.ico' },
 }
 
