@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-atkinson);
+  --color-avatar-orange: #ffb175;
+  --color-avatar-teal: #1dfbc7;
+  --breakpoint-sm: 800px;
+  --breakpoint-xl: 1180px;
+}
