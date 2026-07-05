@@ -1,0 +1,58 @@
+.avatar {
+  position: relative;
+  flex-shrink: 0;
+  width: 236px;
+  height: 303px;
+}
+
+.avatar::before,
+.avatar::after {
+  content: '';
+  position: absolute;
+}
+
+.avatar::before {
+  top: 0;
+  left: 0;
+  width: 199px;
+  height: 243px;
+  background: var(--color-avatar-orange);
+}
+
+.avatar::after {
+  top: 77px;
+  left: 28px;
+  width: 208px;
+  height: 226px;
+  background: var(--color-avatar-teal);
+}
+
+.photo {
+  position: absolute;
+  top: 12px;
+  left: 13px;
+  width: 209px !important;
+  height: 272px !important;
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media (max-width: 1180px) {
+  .avatar         { width: 142px; height: 182px; }
+  .avatar::before { width: 120px; height: 146px; }
+  .avatar::after  { top: 46px; left: 17px; width: 125px; height: 136px; }
+  .photo          { top: 7px !important; left: 8px !important; width: 126px !important; height: 163px !important; }
+}
+
+.avatarFloat {
+  float: right;
+  margin: 0 0 1.5rem 2rem;
+}
+
+@media (max-width: 600px) {
+  .avatarFloat {
+    float: none;
+    margin: 2.5rem auto 1.5rem;
+    display: block;
+  }
+}
