@@ -24,7 +24,7 @@ export default function HomePage() {
         <Nav />
       </div>
       <div className="flex-1 flex justify-center items-start">
-        <Avatar src="/me.jpg" alt="Paolo Di Pasquale" />
+        <Avatar src="/me.jpg" alt="A picture of me, Paolo Di Pasquale, at the Ale House in Reading" />
       </div>
     </main>
   )
