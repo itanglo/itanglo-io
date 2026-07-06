@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { cn } from '@/lib/cn'
 
 export default function Avatar({
   src,
@@ -11,7 +12,7 @@ export default function Avatar({
 }) {
   return (
     <div
-      className={[
+      className={cn(
         'relative shrink-0',
         'w-[142px] h-[182px] xl:w-[236px] xl:h-[303px]',
         "before:content-[''] before:absolute before:top-0 before:left-0 before:bg-avatar-orange",
@@ -20,7 +21,7 @@ export default function Avatar({
         'after:top-[46px] after:left-[17px] after:w-[125px] after:h-[136px]',
         'xl:after:top-[77px] xl:after:left-[28px] xl:after:w-[208px] xl:after:h-[226px]',
         float && 'float-right mb-6 ml-8 max-[600px]:float-none max-[600px]:mt-10 max-[600px]:mx-auto max-[600px]:mb-6',
-      ].filter(Boolean).join(' ')}
+      )}
     >
       <Image
         src={src}

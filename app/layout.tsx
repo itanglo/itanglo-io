@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Atkinson_Hyperlegible } from 'next/font/google'
 import './globals.css'
+import Nav from '@/components/Nav'
 
 const atkinson = Atkinson_Hyperlegible({
   subsets: ['latin'],
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={atkinson.variable}>
-      <body className="bg-white font-sans text-[1.25rem] leading-[1.7] text-black min-h-[100dvh] flex justify-center xl:text-[2rem]">
+      <body className="p-16 h-dvh">
+        <Nav className="pb-16" />
         {children}
       </body>
     </html>

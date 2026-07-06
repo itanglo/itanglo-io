@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { cn } from '@/lib/cn'
 
 const NAV_LINKS = [
   { label: 'Home', href: '/' },
@@ -6,11 +7,11 @@ const NAV_LINKS = [
   { label: 'About', href: '/about' },
 ]
 
-export default function Nav() {
+export default function Nav({ className }: { className?: string }) {
   return (
-    <nav className="flex gap-8 justify-center">
+    <nav className={cn('flex gap-8 justify-center text-xl', className)}>
       {NAV_LINKS.map(({ label, href }) => (
-        <Link key={href} href={href} className="text-link underline whitespace-nowrap">
+        <Link key={href} href={href} className="text-link underline">
           {label}
         </Link>
       ))}
