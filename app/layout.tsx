@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={atkinson.variable}>
-      <body className="p-16 h-dvh">
-        <Nav className="pb-16" />
+      <body className="py-8 px-8 h-dvh text-xl">
+        <Nav />
         {children}
       </body>
     </html>

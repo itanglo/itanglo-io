@@ -7,9 +7,9 @@ const NAV_LINKS = [
   { label: 'About', href: '/about' },
 ]
 
-export default function Nav({ className }: { className?: string }) {
+export default function Nav() {
   return (
-    <nav className={cn('flex gap-8 justify-center text-xl', className)}>
+    <nav className="flex gap-8 justify-center pb-8">
       {NAV_LINKS.map(({ label, href }) => (
         <Link key={href} href={href} className="text-link underline">
           {label}
