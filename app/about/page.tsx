@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="flex flex-col">
-      <article className="max-w-[70ch] self-center flex flex-col">
-        <p className="pt-8">
+      <article className="max-w-[70ch] self-center flex flex-col gap-8">
+        <p>
           {" "}
           My name is Paolo Di Pasquale and this is my personal website. It&apos;s for writing and
           capturing lots of different stuff including, but not limited to my work as a web engineer.
@@ -19,8 +19,8 @@ export default function AboutPage() {
           Anglo, or &quot;Itanglo&quot;. The top level domain of &quot;.io&quot;, has the fortunate
           coincidence that &quot;io&quot; means &quot;me&quot; in Italian.
         </p>
-        <div className="flex flex-col sm:flex-row items-center pt-8">
-          <q className="text-2xl md:text-4xl sm:px-4 md:px-10 py-8 italic">
+        <div className="flex flex-col sm:flex-row items-center">
+          <q className="text-2xl md:text-4xl sm:px-4 md:px-10 italic">
             I read this on the train. It&apos;s sort of like a social repellent.
           </q>
           <figure>
