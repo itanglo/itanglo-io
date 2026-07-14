@@ -20,7 +20,7 @@ export default function AboutPage() {
           coincidence that &quot;io&quot; means &quot;me&quot; in Italian.
         </p>
         <div className="flex flex-col sm:flex-row items-center">
-          <q className="text-2xl md:text-4xl sm:px-4 md:px-10 italic">
+          <q className="text-2xl md:text-4xl py-4 sm:px-4 md:px-10 italic">
             I read this on the train. It&apos;s sort of like a social repellent.
           </q>
           <figure>
