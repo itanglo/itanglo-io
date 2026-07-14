@@ -8,7 +8,7 @@ const NAV_LINKS = [
 
 export default function Nav() {
   return (
-    <nav className="flex gap-8 justify-center pb-8">
+    <nav className="flex gap-8 justify-center pb-8 lg:pb-16">
       {NAV_LINKS.map(({ label, href }) => (
         <Link key={href} href={href}>
           {label}

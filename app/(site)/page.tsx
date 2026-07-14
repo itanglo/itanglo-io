@@ -4,7 +4,7 @@ import IntercomLogo from "@/components/IntercomLogo";
 
 export default function HomePage() {
   return (
-    <main className="flex flex-1 flex-col md:flex-row gap-8 justify-center items-center">
+    <main className="flex flex-col md:flex-row gap-8 items-center justify-center">
       <div data-id="intro" className="lg:text-3xl">
         <p>Ciao&nbsp;👋</p>
         <p className="pl-6 max-sm:pl-0">
