@@ -11,12 +11,12 @@ export default function HomePage() {
         </p>
         <p>Living in Blighty 🇬🇧, hailing from the shores of Sicily&nbsp;🇮🇹</p>
         <p className="pl-6 max-sm:pl-0">
-          Working at&nbsp;
+          Part of Team Growth @ Synthesia&nbsp;
           <Image
             src="/synthesia-logo.svg"
-            alt="Synthesia"
-            width={744}
-            height={120}
+            alt=""
+            width={139}
+            height={94}
             className="inline-block h-[0.9em] w-auto align-middle"
           />
         </p>
