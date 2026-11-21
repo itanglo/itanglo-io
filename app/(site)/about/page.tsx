@@ -12,7 +12,7 @@ export default function AboutPage() {
         <p>
           {" "}
           My name is Paolo Di Pasquale and this is my personal website. It&apos;s for writing and
-          capturing lots of different stuff including, but not limited to my work as a web engineer.
+          capturing lots of different stuff including, but not limited to my work as a Software Engineer.
           My domain name is &quot;itanglo.io&quot;, it&apos;s a play on words that refers to my
           mixed heritage. My late father was Italian and my mother is English. I was born in Italy
           and moved over to England with my family when I was 8 years old. This makes me an Italian
