@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s — Paolo Di Pasquale",
   },
   description:
-    "The personal website of Paolo Di Pasquale, an AI-powered web engineer.",
+    "The personal website of Paolo Di Pasquale, an AI-powered Software Engineer.",
   icons: { icon: "/favicon.ico" },
 };
 
