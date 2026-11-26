@@ -11,7 +11,7 @@ export default function HomePage() {
         </p>
         <p>Living in Blighty 🇬🇧, hailing from the shores of Sicily&nbsp;🇮🇹</p>
         <p className="pl-6 max-sm:pl-0">
-          Part of Team 🌱 Growth @ Synthesia&nbsp;
+          Part of Team 🌱&nbsp;Growth @ Synthesia&nbsp;
           <Image
             src="/synthesia-logo.svg"
             alt=""
